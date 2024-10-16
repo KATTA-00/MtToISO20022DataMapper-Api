@@ -1,0 +1,26 @@
+[package]
+org = "kanishka"
+name = "api"
+version = "0.1.0"
+distribution = "2201.10.0"
+
+[build-options]
+observabilityIncluded = true
+
+[[dependency]]
+org="ballerinax"
+name="iso20022records"
+version="1.1.0"
+repository="local"
+
+[[dependency]]
+org="ballerinax"
+name="swiftmt"
+version="1.2.0"
+repository="local"
+
+[[dependency]]
+org="ballerinax"
+name="MTConversion"
+version = "3.0.0"
+repository="local"
